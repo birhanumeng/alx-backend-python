@@ -3,7 +3,6 @@
 of integer or float numbers.
 """
 
-import math
 from typing import List, Union, Tuple
 
 
@@ -12,4 +11,4 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     as argument. Then it returns a tuple conaiting a string and \
     squares of each numbers.
     """
-    return (k, math.square(v))
+    return (k, v*v)
