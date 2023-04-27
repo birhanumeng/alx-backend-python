@@ -3,8 +3,8 @@
 to integer (floor) of its value
 """
 
-
 import math
+
 
 def floor(n: float) -> int:
     """Converting a float number to integer."""
