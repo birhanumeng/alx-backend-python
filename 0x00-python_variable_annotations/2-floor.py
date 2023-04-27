@@ -9,4 +9,3 @@ import math
 def floor(n: float) -> int:
     """Converting a float number to integer."""
     return math.floor(n)
-
