@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""An asynchronous coroutine that takes in an integer argument"""
+"""An asynchronous coroutine"""
 
 import asyncio
 import random
