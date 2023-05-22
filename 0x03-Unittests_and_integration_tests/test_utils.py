@@ -23,10 +23,10 @@ class TestAccessNestedMap(TestCase):
         ({"a": 1}, ("a", "b"), 'b')
     ])
     def test_access_nested_map_exception(self, map, path, wrong_output):
-        """ Test method raises correct exception """
-        with self.assertRaises(KeyError) as e:
+        """ Test that it raises KeyError with some inputs """
+        with self.assertRaises(KeyError) as err:
             access_nested_map(map, path)
-            self.assertEqual(wrong_output, e.exception)
+            self.assertEqual(wrong_output, err.exception)
 
 
 class TestGetJson(TestCase):
